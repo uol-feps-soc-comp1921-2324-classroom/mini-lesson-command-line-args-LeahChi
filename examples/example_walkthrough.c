@@ -6,9 +6,12 @@
  * argv[2] - age
  */
 int main(int argc, char *argv[])
+// int argc is the argument counter - counts how many arguments the user inputs
+// char *argv[] - going to collect everything that comes into the command line and stores it as argv 
 {
 
     if (argc != 3)
+    // user has to input 3 arguments 
     {
         printf("Usage: wlk <name>\n");
         return 0;
