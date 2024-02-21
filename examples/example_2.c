@@ -24,6 +24,7 @@ int main(int argc, char *argv[])
     }
 
     FILE *input = fopen(argv[1], "r");
+    //fopen("filename", "mode")
     if (!input)
     {
         printf("Error: Bad filename\n");
